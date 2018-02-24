@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Housing"
+            android:title="@string/housing" />
+        <item
+            android:id="@+id/nav_Food"
+            android:title="@string/food" />
+        <item
+            android:id="@+id/nav_Employment"
+            android:title="@string/emp" />
+        <item
+            android:id="@+id/nav_Hospital"
+            android:title="@string/hospital" />
+        <item
+            android:id="@+id/nav_Mental"
+            android:title="@string/mental_health" />
+        <item
+            android:id="@+id/nav_Legal"
+            android:title="@string/legal" />
+    </group>
+
+</menu>

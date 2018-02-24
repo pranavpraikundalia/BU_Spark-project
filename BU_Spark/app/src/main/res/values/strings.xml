@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BU_Spark</string>
+    <string name="edu">Education</string>
+    <string name="law">Law</string>
+    <string name="res">Resources</string>
+    <string name="title_activity_education_">Education_Activity</string>
+    <string name="title_activity_edu_">Edu_Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_law_">Law_Activity</string>
+    <string name="title_activity_res_">Res_Activity</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="legal">Legal</string>
+    <string name="housing">Housing</string>
+    <string name="food">Food</string>
+    <string name="emp">Employment</string>
+    <string name="hospital">Hospital</string>
+    <string name="ma_statue">Massachusetts Statue</string>
+    <string name="ma_case_law">Massachusetts Case Law</string>
+    <string name="fed_statue">Federal Statue</string>
+    <string name="fed_case_law">Federal Case Law</string>
+    <string name="hypos">Hypos</string>
+    <string name="stats">Statistics</string>
+    <string name="indicators">Indicators</string>
+
+</resources>

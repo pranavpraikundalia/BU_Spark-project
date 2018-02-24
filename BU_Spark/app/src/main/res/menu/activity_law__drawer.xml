@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_MA_Stat"
+            android:title="@string/ma_statue" />
+        <item
+            android:id="@+id/nav_MA_CL"
+            android:title="@string/ma_case_law" />
+        <item
+            android:id="@+id/nav_Fed_Stat"
+            android:title="@string/fed_statue" />
+        <item
+            android:id="@+id/nav_Fed_CL"
+            android:title="@string/fed_case_law" />
+    </group>
+
+</menu>
