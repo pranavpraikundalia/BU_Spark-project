@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BU_Spark</string>
     <string name="edu">Education</string>
+    <string name="my_case">My Case</string>
     <string name="law">Law</string>
     <string name="res">Resources</string>
     <string name="title_activity_education_">Education_Activity</string>

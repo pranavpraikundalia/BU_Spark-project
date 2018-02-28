@@ -1,45 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-
     tools:context="com.example.pranavraikundalia.bu_spark.MainActivity">
 
-    <Button
-        android:id="@+id/btnEdu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="@color/education"
-        android:fontFamily="@font/kavoon"
-        android:text="Education"
-        android:textColor="@android:color/white"
-        android:textSize="24sp" />
+    <LinearLayout
+        android:id="@+id/llMyCase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.pranavraikundalia.bu_spark.MainActivity">
 
-    <Button
-        android:id="@+id/btnLaw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:background="@color/law"
-        android:fontFamily="@font/kavoon"
-        android:text="Law"
-        android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/btnRes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:background="@color/resources"
-        android:fontFamily="@font/kavoon"
-        android:text="Resources"
-        android:textColor="@android:color/white"
-        android:textSize="24sp" />
-</RelativeLayout>
+        <Button
+            android:id="@+id/btnMyCase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnLaw"
+            android:layout_alignEnd="@+id/btnEdu"
+            android:background="@color/resources"
+            android:fontFamily="@font/kavoon"
+            android:text="@string/my_case"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llEdu"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.pranavraikundalia.bu_spark.MainActivity">
+
+        <Button
+            android:id="@+id/btnEdu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/education"
+            android:fontFamily="@font/kavoon"
+            android:text="Education"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llLaw"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.pranavraikundalia.bu_spark.MainActivity">
+
+        <Button
+            android:id="@+id/btnLaw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@color/law"
+            android:fontFamily="@font/kavoon"
+            android:text="Law"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llRes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.pranavraikundalia.bu_spark.MainActivity">
+
+
+        <Button
+            android:id="@+id/btnRes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/resources"
+            android:fontFamily="@font/kavoon"
+            android:text="Resources"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

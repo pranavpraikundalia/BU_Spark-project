@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnEdu;
     private Button btnLaw;
     private Button btnRes;
+    private Button btnMyCase;
     //private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,13 +29,25 @@ public class MainActivity extends AppCompatActivity {
         btnEdu= (Button)findViewById(R.id.btnEdu);
         btnLaw= (Button)findViewById(R.id.btnLaw);
         btnRes= (Button)findViewById(R.id.btnRes);
-        btnEdu.setMinimumHeight(height/3);
-        btnLaw.setMinimumHeight(height/3);
-        btnRes.setMinimumHeight(height/3);
-        btnEdu.setMinimumWidth(width);
-        btnLaw.setMinimumWidth(width);
-        btnRes.setMinimumWidth(width);
+        //btnEdu.setMinimumHeight(height/4);
+        //btnLaw.setMinimumHeight(height/4);
+        //btnRes.setMinimumHeight(height/4);
+        //btnEdu.setMinimumWidth(width);
+        //btnLaw.setMinimumWidth(width);
+        //btnRes.setMinimumWidth(width);
 
+        //btnMyCase.setMinimumHeight(height/4);
+        //btnMyCase.setMinimumWidth(width);
+
+
+        btnMyCase= (Button)findViewById(R.id.btnMyCase);
+        btnMyCase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_mycase=new Intent(getApplicationContext(),activity_mycase.class);
+                startActivity(intent_mycase);
+            }
+        });
         btnEdu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
