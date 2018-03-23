@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.pranavraikundalia.bu_spark.activity_mycase">
 
+    <TextView
+        android:id="@+id/txtMyCase"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:text="@string/mycase_content"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>

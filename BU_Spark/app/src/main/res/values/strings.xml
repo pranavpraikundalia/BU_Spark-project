@@ -26,5 +26,15 @@
     <string name="hypos">Hypos</string>
     <string name="stats">Statistics</string>
     <string name="indicators">Indicators</string>
+    <string name="mycase_content">Here we will lay out some questions that indicate Labor \n
+                                    Trafficking and  when clicked on those questions it will \n
+                                    give clear description of the answer to the question, \n
+                                    so that you can understand what they are going through.</string>
+    <string name="law_content">The content here depends on the appropriate sub section selected \n
+                                from the navigation bar at the top left corner. Click on it to know more.</string>
+    <string name="edu_content">The content here depends on the appropriate sub section selected \n
+                                from the navigation bar at the top left corner. Click on it to know more.</string>
+    <string name="res_content">The content here depends on the appropriate sub section selected \n
+                                from the navigation bar at the top left corner. Click on it to know more.</string>
 
 </resources>

@@ -8,4 +8,11 @@
     tools:context="com.example.pranavraikundalia.bu_spark.Res_Activity"
     tools:showIn="@layout/app_bar_res_">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/law_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
